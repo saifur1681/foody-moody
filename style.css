@@ -1,0 +1,10 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 40px;
+}
+#skip{
+    color: blueviolet;
+    font-size: 60px;
+}

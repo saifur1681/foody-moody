@@ -2,6 +2,20 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+
+ul li{
+    display: inline;
+    padding:30px;
+    text-align:right;
+    
+}
+.menu{
+    text-align:right;
+    padding-right: 70px;
+    text-decoration: none; 
+    
+    
+}
 h1{
     font-size: 40px;
 }
@@ -9,7 +23,7 @@ h2{
     font-size: 40px;
 }
 .skip{
-    color:orchid;
+    color:rgb(240, 44, 233);
     font-size: 70px;
 }
 p{
@@ -35,9 +49,6 @@ p{
     color: white;
     font-weight: 700;
 }
-.background{
-    background-color: aquamarine;    
-}
 .second-background{
     background-image:url(images/shapes/7.png) ;
 }
@@ -50,10 +61,12 @@ color: rgb(7, 30, 238);
     display:flex;
     width:10%;
     text-align:center;
-    padding-left:70px;   
+    padding-left:70px;
+    padding-bottom: 80px;   
 }
 .one-line img{
     width:350px;
+    padding-bottom: 20px;
 }
 .shadow{
     box-shadow: 10px 10px 40px rgb(190, 186, 186);
@@ -63,5 +76,9 @@ color: rgb(7, 30, 238);
 }
 footer{
     text-align:center;
-    background-color:rgb(40, 53, 235);  
+    background-color:rgb(117, 133, 117);
+    padding:1px;       
+}
+footer p{
+    color: rgb(241, 206, 9);
 }

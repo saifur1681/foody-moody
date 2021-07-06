@@ -5,6 +5,9 @@ body{
 h1{
     font-size: 40px;
 }
+h2{
+    font-size: 40px;
+}
 .skip{
     color:orchid;
     font-size: 70px;
@@ -12,9 +15,9 @@ h1{
 p{
     font-size: 20px;
 }
-section{
+.flexible-container{
     display:flex;
-}
+} 
 .half-width{
     width: 50%;
     padding-left: 5%;
@@ -37,4 +40,28 @@ section{
 }
 .second-background{
     background-image:url(images/shapes/7.png) ;
+}
+.text-align{
+text-align:center;
+color: rgb(7, 30, 238);
+
+}
+.one-line{
+    display:flex;
+    width:10%;
+    text-align:center;
+    padding-left:70px;   
+}
+.one-line img{
+    width:350px;
+}
+.shadow{
+    box-shadow: 10px 10px 40px rgb(190, 186, 186);
+    padding: 20px;
+    border-radius:20px;
+    margin:5%;
+}
+footer{
+    text-align:center;
+    background-color:rgb(40, 53, 235);  
 }
